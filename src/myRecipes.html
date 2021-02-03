@@ -1,11 +1,192 @@
+<!--This code is very disorganized and they're may be some redundant/unnecessary lines due to my attempt at using floats-->
+<!--I was able to get the output very close to what I wanted so I didn't change anything-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favorite Recipes</title>
+    <style>
+        body
+        {
+            background-color: brown;
+            
+            margin-left: 2%;
+	        margin-right: 2%;
+	        padding: 15px 20px 15px 20px;
+        }
+        h1
+        {
+            color: darkorange;
+            text-align: center;
+            font-size: 64px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+        }
+
+        .subHead1
+        {
+            color: darkorange;
+            text-align: start;
+            font-size: 22px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-left: 200px;
+            float: left;
+        }
+
+        .subHead2
+        {
+            color: darkorange;
+            text-align: right;
+            font-size: 22px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            float: right;
+            margin-right: 200px;
+            display: inline;
+        }
+        li
+        {
+            color: lightgoldenrodyellow;
+            text-align: justify;
+            font-size: 16px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .image1
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: fit-content;
+            max-height: auto;
+            width: auto;
+            height: auto;
+        }
+        .float-leftChild
+        {
+            float: left;
+        }
+
+        .float-float-rightChild
+        {
+            float: right;
+        }
+
+        .list1
+        {
+            margin-left: -20px;
+        }
+        
+        .list2
+        {
+            margin-right: -200px;
+            margin-left: 30px;
+            text-align: center;
+        }
+        .container
+        {
+            display:inline-block;
+            margin: auto;
+            margin-left: 170px;
+            border: double orangered 16px;
+            padding: 35px 80px 35px 80px;
+        }
+    </style>
 </head>
 <body>
-    I am going to work on it later
+    <div class="container">
+        <h1>Smokehouse BBQ Burger</h1>
+        <div class="image1">
+        <img  width="400" height="400" src="https://www.thechunkychef.com/wp-content/uploads/2018/05/Juicy-Lucy-Cheese-Stuffed-Burgers-680x836.jpg">
+        </div>
+        <div class="subHead1">
+            <h2>Ingredients</h2>
+            <div class="list1">
+                <p><ul><li>1lb hamburger meat</li>
+                        <li>1lb bacon</li>
+                        <li>1 cup BBQ sauce</li>
+                        <li>1 onion</li></ul></p>
+            </div>
+        </div>
+        <div class="subHead2">
+            <h2>Directions</h2>
+            <div class="list2">
+                <ol><li>Slice onion and sautee until edges are crispy</li>
+                        <li>Fry bacon until partially crispy</li>
+                        <li>Grill hamburger patties 8 min. on each side until fully cooked</li>
+                        <li>Apply BBQ sauce to buns, assemble and serve!</li></ol>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Chicken Fried Steak</h1>
+        <div class="image1">
+            <img  width="400" height="400" src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/3/0/FNK_the-best-chicken-fried-steak_H_s4x3.jpg.rend.hgtvcom.826.620.suffix/1567523589755.jpeg">
+            </div>
+            <div class="subHead1">
+                <h2>Ingredients</h2>
+                <div class="list1">
+                    <p><ul><li>Four cube steaks</li>
+                            <li>3 eggs, beaten</li>
+                            <li>1.5 cups flour</li>
+                            <li>salt and black pepper</li>
+                            <li>2.5 cups of whole milk</li>
+                            <li>4.5 cups vegetable oil</li></ul></p>
+                </div>
+            </div>
+            <div class="subHead2">
+                <h2>Directions</h2>
+                <div class="list2">
+                    <ol><li>Tenderize cube steaks</li>
+                        <li>Begin making gravy by whisking 3 tbsp. flour with milk on med. high heat</li>
+                        <li>Add 1 tsp. salt and 1 tsp. pepper</li>
+                        <li>Whisk until gravy thickens then remove from heat</li>
+                        <li>Dip tenderized steaks in eggs and cover with flower</li>
+                        <li>Fry in vegetable oil on med. high heat until golden brown</li>
+                        <li>Serve with gravy on top</li></ol>
+                </div>
+            </div>
+            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Peel 'N' Eat Shrimp</h1>
+        <div class="image1">
+            <img  width="400" height="400" src="https://thissillygirlskitchen.com/wp-content/uploads/2018/02/Shrimp-Cocktail-Recipe-from-ThisSillyGirlsKitchen.com_.jpg">
+            </div>
+            <div class="subHead1">
+                <h2>Ingredients</h2>
+                <div class="list1">
+                    <p><ul><li>1lb. pre-cooked shrimp</li>
+                            <li>2 cups cocktail sauce</li></ul></p>
+                </div>
+            </div>
+            <div class="subHead2">
+                <h2>Directions</h2>
+                <div class="list2">
+                    <ol><li>Thaw shrimp</li>
+                        <li>Serve chilled on platter with cocktail sauce</li></ol>
+                </div>
+            </div>
+</div>
 </body>
 </html>
