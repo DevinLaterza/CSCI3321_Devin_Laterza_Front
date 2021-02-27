@@ -1,0 +1,51 @@
+#square-container
+{
+    border: solid 1px #000000;
+    margin:auto;
+    min-height: 450px;
+    width: 800px;
+    transition: all 3s;
+}
+
+.even
+{
+    border: solid 1px #000000;
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+    margin: 2px auto;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    transition: all 3s;
+}
+
+.odd
+{
+    border: solid 1px #000000;
+    background-color: blueviolet;
+    width: 50px;
+    height: 50px;
+    margin: 2px auto;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    transition: all 3s;
+}
+
+#square-container:hover .even
+{
+    transform: translateX(-340px) rotate(1080deg) scale(2, 2);
+}
+
+#square-container:hover .odd
+{
+    transform: translateX(370px) rotate(-1080deg) scale(.75, .75);
+}
+
+#square-container:hover 
+{
+    min-height: 480px;
+    border-radius: 25px;
+}
