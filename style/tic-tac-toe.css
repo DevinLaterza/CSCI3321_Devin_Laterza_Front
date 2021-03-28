@@ -1,0 +1,141 @@
+#container
+{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: rgb(223, 247, 11);
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: 
+        'box1 box2 box3'
+        'box4 box5 box6'
+        'box7 box8 box9';
+}
+
+#status
+{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#rules h1
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#rules
+{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: left;
+    border-style: dotted;
+    border-color: rgb(5, 165, 19);
+}
+
+#s1
+{
+    grid-area: box1;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s2
+{
+    grid-area: box2;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s3
+{
+    grid-area: box3;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s4
+{
+    grid-area: box4;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s5
+{
+    grid-area: box5;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s6
+{
+    grid-area: box6;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s7
+{
+    grid-area: box7;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s8
+{
+    grid-area: box8;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+
+#s9
+{
+    grid-area: box9;
+    width: 96px;
+    height: 96px;
+    background-color: rgb(153, 17, 17);
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 96px;
+}
+ul
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

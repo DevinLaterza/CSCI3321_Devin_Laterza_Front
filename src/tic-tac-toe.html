@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../style/tic-tac-toe.css">
+    <script src="../scripts/tic-tac-toe.js"></script>
+    <title>Tic Tac Toe!</title>
 </head>
 <body>
-    
+    <div id="container">
+        <div id="s1" onclick="placeMarker('s1')"></div>
+        <div id="s2"onclick="placeMarker('s2')"></div>
+        <div id="s3"onclick="placeMarker('s3')"></div>
+        <div id="s4"onclick="placeMarker('s4')"></div>
+        <div id="s5"onclick="placeMarker('s5')"></div>
+        <div id="s6"onclick="placeMarker('s6')"></div>
+        <div id="s7"onclick="placeMarker('s7')"></div>
+        <div id="s8"onclick="placeMarker('s8')"></div>
+        <div id="s9"onclick="placeMarker('s9')"></div>
+        
+    </div>
+    <div id="status">X's turn</div>
+
+    <div id="rules"><h1>Rules:</h1>
+        <ul><li>Players take turns</li>
+            <li>Only one 'X' or 'O' may be placed at a time</li>
+            <li>Three in a row wins!</li></ul>
+    </div>
 </body>
 </html>
